@@ -24,7 +24,7 @@ good: PropTypes.number,
 neutral: PropTypes.number,
 bad: PropTypes.number,
 total: PropTypes.number,
-positive: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+positive: PropTypes.number,
 };
 
 export default Statistics;

@@ -21,8 +21,8 @@ return (
 };
 
 FeedbackOptions.propTypes ={
-options: PropTypes.object,
-onLeaveFeedback: PropTypes.func,
+options: PropTypes.objectOf(PropTypes.number.isRequired).isRequired,
+onLeaveFeedback: PropTypes.func.isRequired,
 };
 
 export default FeedbackOptions;
